@@ -12,31 +12,25 @@ const Hero = () => {
     <section id="home" className="main-hero-area pt-150 pb-80 rel z-1">
       <div className="container container-1620">
         <div className="row align-items-center">
-          <div className="col-lg-4 col-sm-7">
+          <div className="col-lg-7 col-sm-7">
             <div className="hero-content rmb-55 wow fadeInUp delay-0-2s">
-              <span className="h2">Hello, i’m </span>
+              <span className="h2">Crafting </span>
               <h1>
-                <b>Roy C. Jones</b> web designer
+                <b>Modern Digital Experiences</b> <span className="h2">with </span>Silvia Team
               </h1>
               <p>
-                We denounce with righteous indignation dislike demoralized by
-                the charms of pleasure
+              A team of passionate developers and designers specializing in scalable, user-focused solutions using React.js, Next.js, Vue.js, Nuxt, Python, Django, and UI/UX design.
               </p>
-              <div className="hero-btns">
+              <div className="hero-btns">              
                 <Link legacyBehavior href="/contact">
                   <a className="theme-btn">
-                    Hire Me <i className="far fa-angle-right" />
-                  </a>
-                </Link>
-                <Link legacyBehavior href="/contact">
-                  <a className="read-more">
-                    Download Resume <i className="far fa-angle-right" />
+                  Explore Our Projects <i className="far fa-angle-right" />
                   </a>
                 </Link>
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-sm-5 order-lg-3">
+          {/* <div className="col-lg-3 col-sm-5 order-lg-3">
             <div className="hero-counter-wrap ms-lg-auto rmb-55 wow fadeInUp delay-0-4s">
               {counterData.map((count) => (
                 <div className="counter-item counter-text-wrap" key={count.id}>
@@ -45,8 +39,8 @@ const Hero = () => {
                 </div>
               ))}
             </div>
-          </div>
-          <div className="col-lg-5">
+          </div> */}
+          <div className="col-lg-5 col-sm-5">
             <div className="author-image-part wow fadeIn delay-0-3s">
               <div className="bg-circle" />
               <img src="assets/images/hero/me.png" alt="Author" />
@@ -86,7 +80,7 @@ export const Hero2 = () => {
             <i className="flaticon-asterisk-1" /> UI/UX Designer
           </span>
           <span className="title wow fadeInLeft delay-0-2s">
-            Hello <small>i,m</small>
+             <small>Modern Digital Experiences with</small>
           </span>
           <span className="name wow fadeInRight delay-0-4s">henry gayle</span>
           <span className="designations wow fadeInLeft delay-0-6s">

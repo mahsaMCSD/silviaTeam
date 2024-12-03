@@ -4,33 +4,28 @@ const Services = ({ extraClass }) => {
   const services = [
     {
       id: 1,
-      title: "Brand Identity Design",
-      text: "Dignissimos ducimus blanditiis praesen",
+      title: "Frontend Development",
+      text: "React.js & Next.js & Vue.js & Nuxt.js for modern, reactive applications",
     },
     {
       id: 2,
       title: "Website Design",
-      text: "Dignissimos ducimus blanditiis praesen",
+      text: "Custom WordPress Design",
     },
     {
       id: 3,
-      title: "Mobile Application Design",
-      text: "Dignissimos ducimus blanditiis praesen",
+      title: "Modern Web Applications",
+      text: "Modern Web Applications using Next.js and Nuxt.js",
+    },
+    {
+      id: 3,
+      title: "Backend Development",
+      text: "Python and Django and Nodejs for robust server-side solutions",
     },
     {
       id: 4,
-      title: "Motion Graphics Design",
-      text: "Dignissimos ducimus blanditiis praesen",
-    },
-    {
-      id: 5,
-      title: "Website Development",
-      text: "Dignissimos ducimus blanditiis praesen",
-    },
-    {
-      id: 6,
-      title: "SEO & Digital Marketing",
-      text: "Dignissimos ducimus blanditiis praesen",
+      title: "UI/UX Design",
+      text: "User-centered design to ensure a seamless experience",
     },
   ];
   return (
@@ -44,7 +39,7 @@ const Services = ({ extraClass }) => {
             <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
               <span className="sub-title mb-15">Popular Services</span>
               <h2>
-                My <span>Special Service</span> For your Business Development
+                Our <span>Special Service</span> For your Business Development
               </h2>
             </div>
           </div>
@@ -98,7 +93,7 @@ export const Services2 = () => {
           <div className="col-xl-12">
             <div className="section-title text-center mb-50 wow fadeInUp delay-0-2s">
               <span className="sub-title mb-15">
-                <i className="flaticon-asterisk-1" /> my services area
+                <i className="flaticon-asterisk-1" /> our services area
               </span>
               <h2>MY SERVICE AREA</h2>
             </div>

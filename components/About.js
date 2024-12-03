@@ -9,21 +9,17 @@ const About = () => {
             <div className="col-lg-7">
               <div className="about-content-part rel z-2 rmb-55">
                 <div className="section-title mb-35 wow fadeInUp delay-0-2s">
-                  <span className="sub-title mb-15">About Me</span>
+                  <span className="sub-title mb-15">About us</span>
                   <h2>
                     Professional <span>Problem Solutions</span> For Digital
                     Products
                   </h2>
                   <p>
-                    At vero eos et accusamus etodio dignissimos ducimus
-                    praesentium voluptatum corrupti quos dolores quas molestias
-                    excepturi sint occaecati cupiditate provident qui officia
-                    deserunt mollitia animi, id est laborum et dolorum
+                  We are a dedicated team of frontend and backend developers, UI/UX designers, and problem-solvers. With expertise in modern frameworks like Vue.js, Nuxt, and backend technologies like Python and Django, we bring your ideas to life with precision and creativity. From seamless user interfaces to scalable backend systems, we deliver solutions that meet your needs.
                   </p>
                 </div>
-                <ul className="list-style-one two-column wow fadeInUp delay-0-2s">
-                  <li>Branding &amp; Design</li>
-                  <li>Digital Marketing</li>
+                <ul className="list-style-one two-column wow fadeInUp delay-0-2s">                 
+                  <li>Web Design</li>
                   <li>Web Development</li>
                   <li>Product Design</li>
                 </ul>
@@ -33,7 +29,7 @@ const About = () => {
                     <div className="content">
                       <span>Email Us</span>
                       <br />
-                      <a href="mailto:support@gmail.com">support@gmail.com</a>
+                      <a href="mailto:mahsaashrafi71@gmail.com">mahsaashrafi71@gmail.com</a>
                     </div>
                   </div>
                   <div className="info-box-item">
@@ -41,7 +37,7 @@ const About = () => {
                     <div className="content">
                       <span>Make A Call</span>
                       <br />
-                      <a href="callto:+000(123)45688">+880 (123) 456 88</a>
+                      <a href="callto:+98(912)7924226">+98(912)7924226</a>
                     </div>
                   </div>
                 </div>
@@ -52,12 +48,17 @@ const About = () => {
                 <img src="assets/images/about/about.jpg" alt="About Me" />
                 <div className="about-btn btn-one wow fadeInRight delay-0-4s">
                   <img src="assets/images/about/btn-image1.png" alt="Image" />
-                  <h6>Experience Designer</h6>
+                  <h6>Experience Designer: Navid Mousavizadeh</h6>
                   <i className="fas fa-arrow-right" />
                 </div>
                 <div className="about-btn btn-two wow fadeInRight delay-0-5s">
                   <img src="assets/images/about/btn-image2.png" alt="Image" />
-                  <h6>Mark J. Collins</h6>
+                  <h6>Experience frontend Developer: Mahsa Ashrafi</h6>
+                  <i className="fas fa-arrow-right" />
+                </div>
+                <div className="about-btn btn-three wow fadeInRight delay-0-6s">
+                  <img src="assets/images/about/btn-image2.png" alt="Image" />
+                  <h6>Experience fullstack Developer: Mahan Mahmoudi</h6>
                   <i className="fas fa-arrow-right" />
                 </div>
                 <div className="dot-shape">
