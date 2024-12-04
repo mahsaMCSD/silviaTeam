@@ -14,7 +14,7 @@ const Resume = () => {
             <div className="row">
               <div className="col-xl-8 col-lg-9">
                 <div className="section-title mb-60 wow fadeInUp delay-0-2s">
-                  <span className="sub-title mb-15">My Resume</span>
+                  <span className="sub-title mb-15">Our Resume</span>
                   <h2>
                     Real <span>Problem Solutions</span> Experience
                   </h2>
