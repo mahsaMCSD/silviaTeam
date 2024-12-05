@@ -30,20 +30,10 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          {/* <div className="col-lg-3 col-sm-5 order-lg-3">
-            <div className="hero-counter-wrap ms-lg-auto rmb-55 wow fadeInUp delay-0-4s">
-              {counterData.map((count) => (
-                <div className="counter-item counter-text-wrap" key={count.id}>
-                  <Counter end={count.value} extraClass={count.valueType} />
-                  <span className="counter-title">{count.text}</span>
-                </div>
-              ))}
-            </div>
-          </div> */}
           <div className="col-lg-5 col-sm-5">
             <div className="author-image-part wow fadeIn delay-0-3s">
               <div className="bg-circle" />
-              <img src="assets/images/hero/me.png" alt="Author" />
+              <img src="assets/images/logos/Silvia-white.png" alt="Author" />
               <div className="progress-shape">
                 <img
                   src="assets/images/hero/progress-shape.png"

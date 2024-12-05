@@ -5311,7 +5311,7 @@ h6,
   top: 30%;
 }
 .about-right-part .about-btn.two {
-  left: 10%;
+  left: -20px;
   top: calc(60% - 30px);
 }
 @media only screen and (max-width: 479px) {

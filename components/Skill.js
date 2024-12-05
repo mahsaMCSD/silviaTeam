@@ -60,7 +60,7 @@ const Skill = () => {
             <div className="col-lg-5">
               <div className="skill-content-part rel z-2 rmb-55 wow fadeInUp delay-0-2s">
                 <div className="section-title mb-40">
-                  <span className="sub-title mb-15">My Skills</span>
+                  <span className="sub-title mb-15">Our Skills</span>
                   <h2>
                     Let’s Explore Popular <span>Skills &amp; Experience</span>
                   </h2>
@@ -70,7 +70,7 @@ const Skill = () => {
                     ipsa quae ab illo inventore veritatis
                   </p>
                 </div>
-                <Link legacyBehavior href="/about">
+                <Link legacyBehavior href="/">
                   <a className="theme-btn">
                     Learn More <i className="far fa-angle-right" />
                   </a>
