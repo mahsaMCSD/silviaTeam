@@ -24,7 +24,7 @@ const Footer = () => {
 
   return (
     <footer className="main-footer rel z-1">
-      <div className="footer-top-wrap bgc-black pt-100 pb-75">
+      <div className="footer-top-wrap bgc-black">
         <div className="container">
           <div className="row">
             <div className="col-lg-2 col-md-12">
@@ -38,8 +38,8 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-7 col-md-7">
-              <div className="footer-widget widget_nav_menu wow fadeInUp delay-0-4s">
+            <div className="col-lg-10 col-md-7">
+              <div className="widget_nav_menu wow fadeInUp delay-0-4s m-45">
                 <h6 className="footer-title">Quick Link</h6>
                 <ul>
                   <li>
@@ -69,42 +69,9 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-              <div className="footer-widget widget_newsletter wow fadeInUp delay-0-4s">
-                <form action="#">
-                  <label htmlFor="email-address">
-                    <i className="far fa-envelope" />
-                  </label>
-                  <input
-                    id="email-address"
-                    type="email"
-                    placeholder="Email Address"
-                    required=""
-                  />
-                  <button>
-                    Sign Up <i className="far fa-angle-right" />
-                  </button>
-                </form>
-              </div>
+             
             </div>
-            <div className="col-lg-3 col-md-5">
-              <div className="footer-widget widget_contact_info wow fadeInUp delay-0-6s">
-                <h6 className="footer-title">Address</h6>
-                <ul>
-                  <li>
-                    <i className="far fa-map-marker-alt" /> 55 Main Street, 2nd
-                    block, New York City
-                  </li>
-                  <li>
-                    <i className="far fa-envelope" />{" "}
-                    <a href="mailto:support@gmail.com">support@gmail.com</a>
-                  </li>
-                  <li>
-                    <i className="far fa-phone" />{" "}
-                    <a href="callto:+880(123)45688">+880 (123) 456 88</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
+           
           </div>
         </div>
       </div>
@@ -123,16 +90,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="col-lg-6 text-lg-end">
-              <ul className="footer-bottom-nav">
-                <li>
-                  <a href="#">Facebook</a>
-                </li>
-                <li>
-                  <a href="#">Twitter</a>
-                </li>
-                <li>
-                  <a href="#">Instagram</a>
-                </li>
+              <ul className="footer-bottom-nav">                        
                 <li>
                   <a href="#">LinkedIn</a>
                 </li>

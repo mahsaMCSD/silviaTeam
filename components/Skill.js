@@ -9,46 +9,47 @@ const items = [
   },
   {
     id: 2,
-    name: "Framer",
-    image: "assets/images/skills/skill2.png",
-    value: "83",
-  },
-  {
-    id: 3,
     name: "Photoshop",
     image: "assets/images/skills/skill3.png",
     value: "93",
   },
   {
-    id: 4,
+    id: 3,
     name: "Wordpress",
     image: "assets/images/skills/skill4.png",
     value: "84",
   },
   {
-    id: 5,
-    name: "Angular",
-    image: "assets/images/skills/skill5.png",
+    id: 4,
+    name: "React.Js",
+    image: "assets/images/skills/react.png",
     value: "65",
   },
   {
-    id: 6,
-    name: "Webflow",
-    image: "assets/images/skills/skill6.png",
+    id: 5,
+    name: "Next.Js",
+    image: "assets/images/skills/nextjs.png",
     value: "86",
   },
   {
+    id: 6,
+    name: "Vue.Js",
+    image: "assets/images/skills/vue.png",
+    value: "65",
+  },
+  {
     id: 7,
+    name: "Nuxt.js",
+    image: "assets/images/skills/Nuxt_logo.svg.png",
+    value: "86",
+  },
+  {
+    id: 8,
     name: "Python",
     image: "assets/images/skills/skill7.png",
     value: "62",
   },
-  {
-    id: 8,
-    name: "Sketch",
-    image: "assets/images/skills/skill8.png",
-    value: "94",
-  },
+ 
 ];
 
 const Skill = () => {
@@ -65,10 +66,7 @@ const Skill = () => {
                     Let’s Explore Popular <span>Skills &amp; Experience</span>
                   </h2>
                   <p>
-                    Sed ut perspiciatis unde omnis iste natus to voluptatem
-                    accusantium doloremque laudantium, totam rem aperiamc eaque
-                    ipsa quae ab illo inventore veritatis
-                  </p>
+                  We specialize in frontend development with Vue.js, React, and Nuxt, paired with backend expertise in Python and Django. Our team excels in crafting intuitive UI/UX designs, building responsive SPAs, and delivering scalable, user-focused digital solutions.                  </p>
                 </div>
                 <Link legacyBehavior href="/">
                   <a className="theme-btn">
