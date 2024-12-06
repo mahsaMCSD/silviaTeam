@@ -13,9 +13,9 @@ import { Services2 } from "@/components/Services";
 import { Skill2 } from "@/components/Skill";
 import NoxfolioLayout from "@/layout/NoxfolioLayout";
 
-export const metadata = {
-  title: "Home Two",
-};
+// export const metadata = {
+//   title: "Home Two",
+// };
 
 const Index2 = () => {
   return (
