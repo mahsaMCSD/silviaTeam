@@ -31,22 +31,10 @@ export default function Home() {
       {/* Skill Area end */}
       {/* Projects Area start */}
       <Projects />
-      {/* Projects Area end */}
-      {/* Testimonial Area start */}
-      <Testimonial />
-      {/* Testimonial Area end */}
-      {/* Pricing Area start */}
-      <Pricing />
-      {/* Pricing Area end */}
+      {/* Projects Area end */}  
       {/* Contact Area start */}
       <Contact />
       {/* Contact Area end */}
-      {/* Blog Area start */}
-      <Blog />
-      {/* Blog Area end */}
-      {/* Client Log start */}
-      <Clients />
-      {/* Client Log end */}
     </NoxfolioLayout>
   );
 }

@@ -27,6 +27,11 @@ const Services = ({ extraClass }) => {
       title: "UI/UX Design",
       text: "User-centered design to ensure a seamless experience",
     },
+    {
+      id: 5,
+      title: "E-commerce Solutions",
+      text: "Building fully-functional online stores using WooCommerce, Shopify, or custom solutions with React or Vue.",
+    },
   ];
   return (
     <section
@@ -81,116 +86,3 @@ const Services = ({ extraClass }) => {
   );
 };
 export default Services;
-
-export const Services2 = () => {
-  return (
-    <section
-      id="services"
-      className="services-area-two pt-130 rpt-100 pb-140 rpb-100 rel z-1"
-    >
-      <div className="container container-1200">
-        <div className="row justify-content-center">
-          <div className="col-xl-12">
-            <div className="section-title text-center mb-50 wow fadeInUp delay-0-2s">
-              <span className="sub-title mb-15">
-                <i className="flaticon-asterisk-1" /> our services area
-              </span>
-              <h2>MY SERVICE AREA</h2>
-            </div>
-          </div>
-        </div>
-        <div className="services-two-wrap">
-          <div className="service-item-two wow fadeInUp delay-0-2s">
-            <div className="icon">
-              <img src="assets/images/icons/service1.png" alt="Icon" />
-            </div>
-            <h5 className="title">
-              <a href="#">WEBSITE DEvelopment</a>
-            </h5>
-            <div className="text">
-              Welcome to our portfolio website! We are a prof printing company
-              that offers a wide range of Lo rem ipsum dolor sit amet,
-              consectetur
-            </div>
-            <ul className="list">
-              <li>Ui/Ux Design</li>
-              <li>Research</li>
-              <li>Web &amp; Mobile app</li>
-            </ul>
-            <a href="#" className="details-btn">
-              <i className="fal fa-long-arrow-right" />
-            </a>
-          </div>
-          <div className="service-item-two wow fadeInUp delay-0-2s">
-            <div className="icon">
-              <img src="assets/images/icons/service2.png" alt="Icon" />
-            </div>
-            <h5 className="title">
-              <a href="#">Digital Marketing</a>
-            </h5>
-            <div className="text">
-              Welcome to our portfolio website! We are a prof printing company
-              that offers a wide range of Lo rem ipsum dolor sit amet,
-              consectetur
-            </div>
-            <ul className="list">
-              <li>Ui/Ux Design</li>
-              <li>Research</li>
-              <li>Web &amp; Mobile app</li>
-            </ul>
-            <a href="#" className="details-btn">
-              <i className="fal fa-long-arrow-right" />
-            </a>
-          </div>
-          <div className="service-item-two wow fadeInUp delay-0-2s">
-            <div className="icon">
-              <img src="assets/images/icons/service3.png" alt="Icon" />
-            </div>
-            <h5 className="title">
-              <a href="#">Front End DEvelopment</a>
-            </h5>
-            <div className="text">
-              Welcome to our portfolio website! We are a prof printing company
-              that offers a wide range of Lo rem ipsum dolor sit amet,
-              consectetur
-            </div>
-            <ul className="list">
-              <li>Ui/Ux Design</li>
-              <li>Research</li>
-              <li>Web &amp; Mobile app</li>
-            </ul>
-            <a href="#" className="details-btn">
-              <i className="fal fa-long-arrow-right" />
-            </a>
-          </div>
-          <div className="service-item-two wow fadeInUp delay-0-2s">
-            <div className="icon">
-              <img src="assets/images/icons/service4.png" alt="Icon" />
-            </div>
-            <h5 className="title">
-              <a href="#">Joomla redesigning</a>
-            </h5>
-            <div className="text">
-              Welcome to our portfolio website! We are a prof printing company
-              that offers a wide range of Lo rem ipsum dolor sit amet,
-              consectetur
-            </div>
-            <ul className="list">
-              <li>Ui/Ux Design</li>
-              <li>Research</li>
-              <li>Web &amp; Mobile app</li>
-            </ul>
-            <a href="#" className="details-btn">
-              <i className="fal fa-long-arrow-right" />
-            </a>
-          </div>
-        </div>
-        <div className="services-more-btn text-center pt-55 wow fadeInUp delay-0-2s">
-          <Link legacyBehavior href="services" className="theme-btn">
-            Get more services
-          </Link>
-        </div>
-      </div>
-    </section>
-  );
-};
