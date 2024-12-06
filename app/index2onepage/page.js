@@ -1,3 +1,4 @@
+"use client";
 import { About2 } from "@/components/About";
 import { Blog2 } from "@/components/Blog";
 import { Clients2 } from "@/components/Clients";

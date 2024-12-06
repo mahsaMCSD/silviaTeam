@@ -1,3 +1,4 @@
+"use client";
 import About from "@/components/About";
 import Blog from "@/components/Blog";
 import Clients from "@/components/Clients";
