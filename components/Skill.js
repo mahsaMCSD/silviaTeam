@@ -17,19 +17,19 @@ const items = [
     id: 3,
     name: "Wordpress",
     image: "assets/images/skills/skill4.png",
-    value: "84",
+    value: "64",
   },
   {
     id: 4,
     name: "React.Js",
     image: "assets/images/skills/react.png",
-    value: "65",
+    value: "94",
   },
   {
     id: 5,
     name: "Next.Js",
     image: "assets/images/skills/nextjs.png",
-    value: "86",
+    value: "89",
   },
   {
     id: 6,

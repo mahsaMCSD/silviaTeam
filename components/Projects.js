@@ -20,20 +20,19 @@ const Projects = () => {
         <div className="row align-items-center pb-25">
           <div className="col-lg-6">
             <div className="project-image wow fadeInLeft delay-0-2s">
-              <img src="assets/images/projects/project1.jpg" alt="Project" />
+              <img src="assets/images/projects/Mellat.jpg" alt="Project" />
             </div>
           </div>
           <div className="col-xl-5 col-lg-6">
             <div className="project-content wow fadeInRight delay-0-2s">
-              <span className="sub-title">Product Design</span>
+              <span className="sub-title">Frontend Development</span>
               <h2>
                 <Link legacyBehavior href="project-details">
-                  Mobile Application Design
+                Mellat Bank Mobile 
                 </Link>
               </h2>
               <p>
-                Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-                inventore veritatis architecto beatae
+              Our team designed and developed Mellat Bank's mobile banking platform, serving over 10 million active users. We spearheaded the platform's refactor and redesign, enhancing performance, scalability, and user experience
               </p>
               <Link legacyBehavior href="/project-details">
                 <a className="details-btn">
