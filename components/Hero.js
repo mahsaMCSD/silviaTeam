@@ -16,15 +16,18 @@ const Hero = () => {
             <div className="hero-content rmb-55 wow fadeInUp delay-0-2s">
               <span className="h2">Crafting </span>
               <h1>
-                <b>Modern Digital Experiences</b> <span className="h2">with </span>Silvia Team
+                <b>Modern Digital Experiences test deploy</b>{" "}
+                <span className="h2">with </span>Silvia Team
               </h1>
               <p>
-              A team of passionate developers and designers specializing in scalable, user-focused solutions using React.js, Next.js, Vue.js, Nuxt, Python, Django, and UI/UX design.
+                A team of passionate developers and designers specializing in
+                scalable, user-focused solutions using React.js, Next.js,
+                Vue.js, Nuxt, Python, Django, and UI/UX design.
               </p>
-              <div className="hero-btns">              
+              <div className="hero-btns">
                 <Link legacyBehavior href="/contact">
                   <a className="theme-btn">
-                  Explore Our Projects <i className="far fa-angle-right" />
+                    Explore Our Projects <i className="far fa-angle-right" />
                   </a>
                 </Link>
               </div>
@@ -70,7 +73,7 @@ export const Hero2 = () => {
             <i className="flaticon-asterisk-1" /> UI/UX Designer
           </span>
           <span className="title wow fadeInLeft delay-0-2s">
-             <small>Modern Digital Experiences with</small>
+            <small>Modern Digital Experiences with</small>
           </span>
           <span className="name wow fadeInRight delay-0-4s">henry gayle</span>
           <span className="designations wow fadeInLeft delay-0-6s">
